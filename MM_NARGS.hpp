@@ -1,6 +1,6 @@
 #pragma once
 // #include <p/macro_magic/MM_NARGS.hpp>
-// Copyright (c) 2013, 2017 Alf P. Steinbach.
+// Copyright (c) 2013, 2017 Alf P. Steinbach, distributed under Boost license 1.0.
 //
 // The MM_NARGS macro evaluates to the number of arguments that have been
 // passed to it.

@@ -1,6 +1,6 @@
 #pragma once
 // #include <p/macro_magic/MM_APPLY_WITH_FIXED_ARG.hpp>
-// Copyright (c) 2017 Alf P. Steinbach.
+// Copyright (c) 2017 Alf P. Steinbach, distributed under Boost license 1.0.
 
 #include <p/macro_magic/MM_NARGS.hpp>   // MM_INVOKE, MM_INVOKE_B, MM_CONCAT, MM_NARGS
 
