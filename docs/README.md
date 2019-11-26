@@ -1,6 +1,6 @@
-# Meta macro, a.k.a. *cppx-core-language-meta-macro*
+# Meta Macro
 
-Meta macro is a header-only library with a macro `CPPX_APPLY` to invoke a specified macro on each of up to 63 arguments. There's also `CPPX_APPLY_WITH_FIXED_ARG` to pass a specified fixed first argument to the invoked macro, and there's `CPPX_N_ARGUMENTS` to count the number of arguments passed to a variadic macro.
+Meta Macro is a header-only library with a macro `CPPX_APPLY` to invoke a specified macro on each of up to 63 arguments. There's also `CPPX_APPLY_WITH_FIXED_ARG` to pass a specified fixed first argument to the invoked macro, and there's `CPPX_N_ARGUMENTS` to count the number of arguments passed to a variadic macro.
 
 Especially `CPPX_N_ARGUMENTS` is functionality that ideally should be provided by the core language or the standard library.
 
@@ -11,6 +11,14 @@ All uppercase is a common strong convention for macro names in C++.
 The idea is that all uppercase is so unpleasant to the eye that it should be reserved for the kind of identifiers, macros, that only should be used as a last resort.
 
 However, unless `CPPX_NO_DOLLARS_PLEASE` is defined these macros can also be used by the less visually annoying names `$apply`, `$apply_with_fixed_arg` and `$n_arguments`. As of C++17 the $ names are formally non-standard, but as far as I know they're accepted by all extant desktop system C++ compilers. And I find that I prefer the more normal tone of voice in these names, as opposed to the shouting uppercase.
+
+## Installation
+
+Make the library headers available via C++ include path &ldquo;cppx-core-language-meta-macro/&rdquo;. For example,
+
+>     #include <cppx-core-language-meta-macro/all.hpp>
+
+&hellip; should work.
 
 ## Credit
 
